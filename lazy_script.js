@@ -1,3 +1,14 @@
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js' type='text/javascript'/>
+<script type='text/javascript'>
+//<![CDATA[
+/*
+* Lazy Load - jQuery plugin for lazy loading images
+* Copyright (c) 2007-2012 Mika Tuupola
+* Licensed under the MIT license:
+* http://www.opensource.org/licenses/mit-license.php
+* Project home:
+* http://www.appelsiini.net/projects/lazyload
+*/
 (function($){$.fn.lazyload=function(options){var settings={threshold:0,failurelimit:0,event:"scroll",effect:"show",container:window};if(options){$.extend(settings,options);}
 var elements=this;if("scroll"==settings.event){$(settings.container).bind("scroll",function(event){var counter=0;elements.each(function(){if($.abovethetop(this,settings)||$.leftofbegin(this,settings)){}else if(!$.belowthefold(this,settings)&&!$.rightoffold(this,settings)){$(this).trigger("appear");}else{if(counter++>settings.failurelimit){return false;}}});var temp=$.grep(elements,function(element){return!element.loaded;});elements=$(temp);});}
 this.each(function(){var self=this;if(undefined==$(self).attr("original")){$(self).attr("original",$(self).attr("src"));}
@@ -16,3 +27,5 @@ effect:'fadeIn',
 placeholder:'http://lh3.googleusercontent.com/-9nuRfZdo5ro/T5cYmFT_X9I/AAAAAAAACa8/K9aG-gcgsaI/s1/bg_placeholder.png'
 });
 });
+//]]>
+</script>
