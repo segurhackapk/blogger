@@ -1,0 +1,30 @@
+Si quieres hacer una instalación limpia del Sygic Truck
+
+Método 1 (Android 6.0 o superior)
+
+
+1. Descarga e instala Sygic Truck GPS Navigation Premium y no la abras aún
+
+2. Descarga el basefolder (incluye mapa de España)
+
+3. Descomprime el basefolder.zip con winzip en la memoria interna (te tiene que quedar en la memoria interna una carpeta llamada SygicTruck y dentro de ella 3 carpetas y un fichero)
+
+4. Ya puedes abrir la aplicación.
+
+
+Método 2 (Android 5.0 o inferior)
+
+
+1. Descarga e instalar Sygic Truck GPS Navigation Premium
+
+2. Abre la aplicación
+
+3. Elige la opción memoria interna
+
+4. Espera 30 segundos y cierra la aplicación.
+
+5. Comprueba que en la memoria interna se ha creado una carpeta llamada SygicTruck.
+
+6. Descarga Maps.rar (incluye mapa de España) y extráelo en la siguiente ruta /memoria interna/SygicTruck
+
+7. Abre la aplicación, configura tamaño del camión y no os registréis con ningún correo, darle a omitir
