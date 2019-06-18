@@ -1,0 +1,54 @@
+
+Si vas a hacer una instalación limpia del Sygic
+
+1- Descarga Sygic Navegación GPS y Mapas FULL APK en tu teléfono
+2- Instálalo y no lo abras aún
+3- Descarga el basefolder.zip
+4- Descomprime el basefolder.zip en la siguiente ruta: /android/data de la memoria interna
+
+Abre Sygic e instala mapas desde la propia aplicación en el menú/Administrar mapas dándole al signo +
+
+Nota1: Por defecto el Sygic se instala en la memoria interna para mejor rendimiento, pero si quieres cambiarlo a la memoria externa ves a Menú/Ajustes/Almacenamiento de mapas y datos y selecciona la memoria externa, el Sygic se encargará de moverlo todo.
+
+Nota2: Si descargaste los mapas y al iniciar Sygic no te los detecta o te aparece el mensaje de 15 días de prueba, descarga este fichero: https://bit.ly/2LRTtIM y colocalo en la siguiente ruta: /Android/data/com.sygic.aura/files/Maps sustituyéndolo por el que hay.
+
+Nota3: Puedes comprobar que el Sygic es premium accediendo a su Menú/Ajustes, tendrás todas las opciones desbloqueadas, sin embargo, la función del tráfico en tiempo real es por el momento, aunque esté activada no funciona.
+
+Si quieres actualizar el Sygic
+
+Descarga e instala la nueva versión encima de la vieja
+
+Nota: A veces, instalando la actualización te puede salir "aplicación no instalada", eso pasa porque la nueva versión tiene un hash diferente a la versión que ya tienes instalada.
+
+Si te pasa eso haz lo siguiente:
+
+1- Abre un gestor de archivos y ves a la ruta /android/data
+2- Renombra la carpeta com.sygic.aura a com.sygic.auracopia
+3- Desinstala Sygic del teléfono
+4- Instala la nueva versión y no la abras aún
+5- Vuelve a renombrar la carpeta com.sygic.auracopia a com.sygic.aura
+6- Ya puedes abrir Sygic
+
+Si quieres descargar más mapas
+
+Hay dos maneras para descargar otros mapas del Sygic:
+
+Desde la misma aplicación, entrando a menú/Administrar mapas y dándole al signo +
+Descargando Sygic PC Maps Downloader.exe en un ordenador (Windows), descargas los mapas en el ordenador y los mueves a la carpeta /android/data/com.sygic.aura/files/Maps
+
+Versiones anteriores de Sygic
+
+Sygic saca cada semana una versión nueva arreglando bugs, sabemos que es muy pesado actualizar cada dos por tres, pero te recomiendo que actualices cada vez que salte una versión oficial. Por ejemplo, ahora mismo están por la versión 18.1.x si va variando la x es para arreglar bugs, no hace falta actualizar a menos que notes anomalías en la aplicación.
+
+Si salta la versión 18.2.x o 19.x.x entonces sí, actualiza porque seguramente habrán añadido funciones interesantes.
+
+De todas formas, te dejo un link de versiones anteriores de Sygic por si no te convence la versión actual y quieres volver a una anterior que te iba bien.
+
+Nota: Para volver a una versión antigua sin perder ningún dato, haz lo siguiente:
+
+1- Abre un gestor de archivos y ves a la ruta /android/data
+2- Renombra la carpeta com.sygic.aura a com.sygic.auracopia
+3- Desinstala Sygic del teléfono.
+4- Instala la versión antigua y no la abras aún
+5- Vuelve a renombrar la carpeta com.sygic.auracopia a com.sygic.aura
+6- Ya puedes abrir sygic
