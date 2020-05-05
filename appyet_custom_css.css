@@ -28,17 +28,17 @@
 
 img {display:block; width: auto !important; height: auto !important; max-width: 100%; padding:0px !important; margin-left:auto !important; margin-right:auto !important; margin-top:0px !important; margin-bottom:0px !important; text-align:center !important;border: 10px solid #e6e6e6 !important;}
 
-.subtitulo{text-align: center; font-family: serif;}
+.subtitulo{text-align: center !important; font-family: serif !important;}
 
-.lista_post{list-style:none;padding:0px}
+.lista_post{list-style:none !important;padding:0px !important}
 
 <!-- fin css general -->
 
 <!-- css links de descarga -->
 
-.links_descarga{text-align: center;}
+.links_descarga{text-align: center !important;}
 
-.list-inline li {margin-bottom: 7px;margin-top: 7px;width: 100%;}
+.list-inline li {margin-bottom: 7px !important;margin-top: 7px !important;width: 100% !important;}
 
 .gplay,.download,.show{font-family:arial,sans-serif;width:100%;padding:5px!important;color:#fff!important;font-weight:400;font-size:12px;text-align:center;text-transform:uppercase;opacity:.95;transition:all .2s ease-out;display:inline-block;border:1px solid #f7fafe;box-shadow:0 1px 1px rgba(255,255,255,0.35) inset,0 1px 1px rgba(0,0,0,0.3)}
 
@@ -99,8 +99,8 @@ img {display:block; width: auto !important; height: auto !important; max-width: 
 <! fin css lista_post -->
 
 <!-- css slider -->
-img {margin-left: auto;margin-right: auto;display: block;max-width: 100%;height: auto;}
-.carousel-control.left,.carousel-control.right{display:none}
+img {margin-left: auto !important;margin-right: auto !important;display: block !important;max-width: 100% !important;height: auto !important;}
+.carousel-control.left,.carousel-control.right{display:none !important}
 #myCarousel{text-align: center !important;}
 <!-- fin css slider -->
 
