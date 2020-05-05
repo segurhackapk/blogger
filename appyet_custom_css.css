@@ -1,0 +1,107 @@
+<!-- custome -->
+<!-- Jquery y bootstrap -->
+
+<link href='//maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css' rel='stylesheet'/>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js'></script>
+
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js'></script>
+
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+
+<!--fin Jquery y bootstrap -->
+
+<style>
+
+<!-- css general -->
+
+.appyet_frame {margin-bottom:50px !important; }
+
+.appyet_title {color: #333 !important;
+    font-size: 28px !important;
+    margin: 0 !important;
+    padding-bottom: 5px !important;
+    padding-top: 5px !important;
+    line-height: 1.3 !important;}
+
+img {display:block; width: auto !important; height: auto !important; max-width: 100%; padding:0px !important; margin-left:auto !important; margin-right:auto !important; margin-top:0px !important; margin-bottom:0px !important; text-align:center !important;border: 10px solid #e6e6e6 !important;}
+
+.subtitulo{text-align: center; font-family: serif;}
+
+.lista_post{list-style:none;padding:0px}
+
+<!-- fin css general -->
+
+<!-- css links de descarga -->
+
+.links_descarga{text-align: center;}
+
+.list-inline li {margin-bottom: 7px;margin-top: 7px;width: 100%;}
+
+.gplay,.download,.show{font-family:arial,sans-serif;width:100%;padding:5px!important;color:#fff!important;font-weight:400;font-size:12px;text-align:center;text-transform:uppercase;opacity:.95;transition:all .2s ease-out;display:inline-block;border:1px solid #f7fafe;box-shadow:0 1px 1px rgba(255,255,255,0.35) inset,0 1px 1px rgba(0,0,0,0.3)}
+
+.gplay{background-color:#689f38}
+
+.download, .show{background-color:#4285f4}
+
+.link_info{background-color:#337ab7;width:100%;margin:0;font-size:12px!important}
+
+.gplay:after {
+    content: "\f04b";
+    display: inline-block;
+    font-weight: normal;
+    vertical-align: top;
+    margin-left: 10px;
+    width: 16px;
+    height: 16px;
+    font-family: fontawesome;
+    transition: all .5s ease-out;
+}
+
+.download:after {
+    content: '\f0ed';
+    display: inline-block;
+    font-weight: normal;
+    vertical-align: top;
+    margin-left: 10px;
+    width: 16px;
+    height: 16px;
+    font-family: fontawesome;
+    transition: all .5s ease-out;
+}
+
+.show:after {
+    content: "\f002";
+    display: inline-block;
+    font-weight: normal;
+    vertical-align: top;
+    margin-left: 10px;
+    width: 16px;
+    height: 16px;
+    font-family: fontawesome;
+    transition: all .5s ease-out;
+}
+.gplay:hover, .download:hover, .show:hover {text-decoration:none}
+.links_descarga_cabecera{display:block;max-height:18px;overflow:hidden;text-transform:uppercase;position:relative}
+
+.links_descarga_text{display:inline-block;vertical-align:super;font-size:12px;color:#525252;padding:0 6px;font-family:arial,sans-serif;font-weight:400;height:15px}
+
+<!-- fin css links de descarga -->
+
+<!-- css lista_post -->
+
+.lista_post{list-style: none}
+
+.lista_post li::before {content: "\2727"; color: red; display: inline-block; width: 1em; margin-left: -1em}
+
+<! fin css lista_post -->
+
+<!-- css slider -->
+img {margin-left: auto;margin-right: auto;display: block;max-width: 100%;height: auto;}
+.carousel-control.left,.carousel-control.right{display:none}
+#myCarousel{text-align: center !important;}
+<!-- fin css slider -->
+
+</style>
